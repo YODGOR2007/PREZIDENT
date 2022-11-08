@@ -1,0 +1,15 @@
+ifoda = ''
+soz = input("So'zni kriting>>> ").lower()
+harflar_soni  = len(soz)
+for harf in soz:
+      if harf !='i':
+            if harf !='a':
+                  if harf !='e':
+                        if harf !='o':
+                              if harf !='u':
+                                    ifoda += harf
+print(ifoda)
+
+
+
+
